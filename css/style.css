@@ -1,12 +1,60 @@
-.header__item {
-	text-transform: uppercase;
+html {
+	font-size: 16px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }
-h1{
-	color: #159485;
-	font-size: 47px;
 
+body {
+	font-size: 1rem;
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+	color: #2C2828;
+	background-color: #fff;
 }
-p{
+
+/* ================ Typography ================ */
+
+h1 {
+	color: #2C2828;
+	font-size: 3.5rem;
+	line-height: 3.5rem;
+}
+
+h4 {
+	color: #2C2828;
+	font-size: 1.5rem;
+}
+
+p {
 	color: #141414;
 	font-size: 16px;
+}
+
+ul {
+	list-style: none;
+}
+
+/* ================ Components ================ */
+
+header {
+	height: 80px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	justify-content: center;
+}
+.header--item {
+	text-transform: capitalize;
+}
+.nav-item-bar {
+	text-transform: capitalize;
+	text-align: right;
+	justify-content: center;
+	position: relative;
+}
+
+.intro-banner--container {
+	height: 480px;
+	border-bottom: 1px solid #000;
 }
