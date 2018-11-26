@@ -1,6 +1,8 @@
 .container {
   width: 100%;
   max-width: 1120px;
+  display: grid;
+  grid-column-gap: 32px;
   margin: auto;
 }
 
@@ -25,6 +27,8 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .row.reverse {
@@ -44,10 +48,10 @@
 [class*='col-'] {
   margin: 0;
   padding: 0;
-  background: #eee;
-  border: 1px solid #525252;
-  border-bottom: 1px solid #525252;
-  border-left: 1px solid #525252;
+  background: #f7f7f7;
+  border: 1px solid #ecececf;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
 }
 
 .col-xs,
@@ -96,6 +100,8 @@
   -ms-flex-preferred-size: 25%;
   flex-basis: 25%;
   max-width: 25%;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .col-xs-4 {

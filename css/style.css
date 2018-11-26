@@ -18,8 +18,14 @@ body {
 
 h1 {
 	color: #2C2828;
+	font-weight: 600;
 	font-size: 3.5rem;
 	line-height: 3.5rem;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 2.25rem;
 }
 
 h4 {
@@ -27,9 +33,23 @@ h4 {
 	font-size: 1.5rem;
 }
 
+h5 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 1.125rem;
+	line-height: 1.25rem;
+}
+.h5-featuredwork {
+	padding-top: 1rem;
+}
+
 p {
+	margin: 0;
 	color: #141414;
-	font-size: 16px;
+	font-size: 1rem;
+}
+.p-featuredwork {
+	padding-top: 0.5rem;
 }
 
 ul {
@@ -57,4 +77,8 @@ header {
 .intro-banner--container {
 	height: 480px;
 	border-bottom: 1px solid #000;
+}
+
+.center {
+	text-align: center;
 }
