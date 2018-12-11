@@ -521,6 +521,17 @@ ol {
   transform: scale(1);
 }
 
+/*-------------------------Work Inner----------------------*/
+.work-inner h2 {
+  font-size: 1.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.work-inner h3 {
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+}
+
 /*-------------------------Footer Section----------------------*/
 .footer-section {
   padding: 4rem 0;
