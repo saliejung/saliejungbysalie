@@ -543,12 +543,12 @@ ol {
 }
 
 .social-links {
-  margin-top: 0px;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .social-links a {
-  color: #979797;
+  color: #2C2828;
   font-size: 15px;
   margin-right: 30px;
 }
