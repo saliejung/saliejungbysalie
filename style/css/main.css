@@ -64,21 +64,6 @@ ol {
   background-size: cover;
 }
 
-.intro-title {
-  padding-bottom: 3.75rem;
-  font-size: 3.75rem;
-  line-height: 4.5rem;
-  letter-spacing: 0;
-}
-
-.intro-title span {
-  color: #979797;
-}
-
-.intro-body {
-  font-size: 1.75rem;
-}
-
 /*------------------------Common Elements--------------------*/
 .element {
   margin-bottom: 100px;
@@ -141,7 +126,7 @@ ol {
   }
 }
 
-/*=== Buttons ===*/
+/*=================== Buttons ==================*/
 .site-btn {
   display: inline-block;
   font-size: 14px;
@@ -387,9 +372,39 @@ ol {
   display: none;
 }
 
+/*-------------------------WIP----------------------*/
+.wip-name {
+  padding-bottom: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.wip-content {
+  padding-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 /*-------------------------Intro Section----------------------*/
 .intro-section {
   padding: 6rem 0;
+}
+
+.intro-title {
+  padding-bottom: 3.75rem;
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+  letter-spacing: 0;
+}
+
+.intro-title span {
+  color: #979797;
+}
+
+.intro-body {
+  font-size: 1.75rem;
 }
 
 /*---------------------Portfolio Section--------------------*/
@@ -549,7 +564,7 @@ ol {
 
 .social-links a {
   color: #2C2828;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-right: 30px;
 }
 
