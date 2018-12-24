@@ -38,17 +38,16 @@ a {
   text-decoration: none;
 }
 
-.underlined {
-  text-decoration: none;
+.a-underlined-link {
   border-bottom: 1px solid #C4C3C4;
+  text-decoration: none;
 }
 
-a:hover,
-a:focus {
+.a-underlined-link:hover,
+.a-underlined-link:focus {
+  border-bottom: 1px solid #282328;
   color: #282328;
   text-decoration: none;
-  outline: none;
-  border-bottom: 1px solid #282328;
 }
 
 ul,
@@ -86,11 +85,13 @@ ol {
 
 .em-link {
   color: #F32F17;
+  text-decoration: none;
 }
 
-a.em-link:hover {
-  color: #F32F17;
+.em-link:hover {
   border-bottom: 1px solid #F32F17;
+  color: #F32F17;
+  text-decoration: none;
 }
 
 /*========================== Preloder ======================*/
