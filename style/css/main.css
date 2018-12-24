@@ -16,10 +16,15 @@ h6 {
   font-weight: 500;
 }
 
-p, .work-inner p {
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
   font-size: 1rem;
-  color: #2C2828;
-  line-height: 1.25rem;
+  color: #282328;
+  line-height: 1.375rem;
+  margin-bottom: 1rem;
 }
 
 img {
@@ -56,7 +61,7 @@ ol {
   margin: 0;
 }
 
-/*------------------------Helper css-----------------------*/
+/*------------------------  Helper css  ------------------------*/
 .body-pad {
   padding: 0 40px;
 }
@@ -74,7 +79,7 @@ ol {
   background-size: cover;
 }
 
-/*------------------------Common Elements--------------------*/
+/*---------------------  Common Elements  ---------------------*/
 .element {
   margin-bottom: 100px;
 }
@@ -94,7 +99,7 @@ ol {
   text-decoration: none;
 }
 
-/*========================== Preloder ======================*/
+/*===================  Preloder  ===================*/
 #preloder {
   position: fixed;
   width: 100%;
@@ -147,7 +152,7 @@ ol {
   }
 }
 
-/*=================== Buttons ==================*/
+/*===================   Buttons  ===================*/
 .site-btn {
   display: inline-block;
   font-size: 14px;
@@ -192,141 +197,7 @@ ol {
   color: #fff;
 }
 
-/*===  Accordion  ===*/
-.accordion-area .panel {
-  margin-bottom: 30px;
-}
-
-.accordion-area .panel-header {
-  background: #000;
-  color: #fff;
-  display: block;
-  padding: 12px 50px;
-  padding-left: 30px;
-  font-size: 14px;
-  font-weight: 600;
-  position: relative;
-  border: 2px solid #000;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-
-.accordion-area .panel-header.active {
-  background: transparent;
-  color: #000;
-}
-
-.accordion-area .panel-header.active .panel-link:after {
-  content: "-";
-  color: #000;
-}
-
-.accordion-area .panel-header.active .panel-link.collapsed:after {
-  content: "+";
-}
-
-.accordion-area .panel-link {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 50px;
-  border: none;
-  cursor: pointer;
-  background: transparent;
-}
-
-.accordion-area .panel-body p {
-  font-size: 14px;
-  margin-bottom: 0;
-  padding-top: 25px;
-}
-
-.accordion-area .panel-body {
-  padding: 0 5px;
-}
-
-.accordion-area .panel-link:after {
-  content: "+";
-  position: absolute;
-  left: 50%;
-  font-size: 16px;
-  font-weight: 700;
-  top: 50%;
-  color: #fff;
-  line-height: 16px;
-  margin-top: -8px;
-  margin-left: -4px;
-}
-
-/*=========================  Tab  ==========================*/
-.tab-element .nav-tabs {
-  border-bottom: none;
-  margin-bottom: 35px;
-}
-
-.tab-element .nav-tabs .nav-link {
-  border: 2px solid #000;
-  background: #000;
-  border-radius: 0;
-  padding: 15px 40px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #222;
-  min-width: 118px;
-  font-size: 16px;
-  color: #fff;
-}
-
-.tab-element .nav-tabs .nav-item:last-child .nav-link {
-  margin-right: 0;
-}
-
-.tab-element .nav-tabs .nav-link.active {
-  background: transparent;
-  color: #000;
-}
-
-.tab-element .tab-pane h4 {
-  font-size: 18px;
-  margin: 25px 0 20px;
-}
-
-.tab-element .tab-pane p {
-  font-size: 14px;
-}
-
-.circle-progress {
-  text-align: center;
-  position: relative;
-}
-
-.circle-progress canvas {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.circle-progress .progress-info {
-  position: absolute;
-  width: 100%;
-  top: 30%;
-}
-
-.circle-progress .progress-info h2 {
-  font-size: 36px;
-}
-
-.circle-progress .progress-info p {
-  color: #979797;
-  font-size: 16px;
-  line-height: normal;
-}
-
-/*===  Icon Box  ===*/
+/*===================  Icon Box  ===================*/
 .icon-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -347,7 +218,7 @@ ol {
   margin-bottom: 25px;
 }
 
-/*-----------------------Header Section-----------------------*/
+/*---------------------  Header Section  ---------------------*/
 .header-section {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -395,7 +266,7 @@ ol {
   display: none;
 }
 
-/*-------------------------WIP----------------------*/
+/*---------------------------  WIP  ---------------------------*/
 .wip-name {
   padding-bottom: 2rem;
   font-family: 'Roboto', sans-serif;
@@ -416,7 +287,11 @@ ol {
   line-height: 1.5rem;
 }
 
-/*-------------------------Intro Section----------------------*/
+.wip-content span {
+  color: #898789;
+}
+
+/*----------------------  Intro Section  ----------------------*/
 .intro-section {
   padding: 6rem 0;
 }
@@ -565,7 +440,20 @@ ol {
   transform: scale(1);
 }
 
-/*-------------------------Work Inner----------------------*/
+/*---------------------------  Work  ---------------------------*/
+
+.work-section {
+  padding: 8rem 0;
+}
+
+.work-title {
+  font-size: 3.5rem;
+}
+
+.work-subtitle {
+  font-size: 1.5rem;
+}
+
 .work-inner h2 {
   font-size: 1.5rem;
   padding-bottom: 3.5rem;
@@ -577,7 +465,11 @@ ol {
 }
 
 .work-para {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.work-para-s {
+  padding-bottom: 1rem;
 }
 
 /*-------------------------Footer Section----------------------*/
@@ -734,6 +626,140 @@ ol {
 
 .contact-form ::placeholder {
   font-style: italic;
+}
+
+/*===================  Accordion  ===================*/
+.accordion-area .panel {
+  margin-bottom: 30px;
+}
+
+.accordion-area .panel-header {
+  background: #000;
+  color: #fff;
+  display: block;
+  padding: 12px 50px;
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  border: 2px solid #000;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+}
+
+.accordion-area .panel-header.active {
+  background: transparent;
+  color: #000;
+}
+
+.accordion-area .panel-header.active .panel-link:after {
+  content: "-";
+  color: #000;
+}
+
+.accordion-area .panel-header.active .panel-link.collapsed:after {
+  content: "+";
+}
+
+.accordion-area .panel-link {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.accordion-area .panel-body p {
+  font-size: 14px;
+  margin-bottom: 0;
+  padding-top: 25px;
+}
+
+.accordion-area .panel-body {
+  padding: 0 5px;
+}
+
+.accordion-area .panel-link:after {
+  content: "+";
+  position: absolute;
+  left: 50%;
+  font-size: 16px;
+  font-weight: 700;
+  top: 50%;
+  color: #fff;
+  line-height: 16px;
+  margin-top: -8px;
+  margin-left: -4px;
+}
+
+/*==========================  Tab  ==========================*/
+.tab-element .nav-tabs {
+  border-bottom: none;
+  margin-bottom: 35px;
+}
+
+.tab-element .nav-tabs .nav-link {
+  border: 2px solid #000;
+  background: #000;
+  border-radius: 0;
+  padding: 15px 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222;
+  min-width: 118px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.tab-element .nav-tabs .nav-item:last-child .nav-link {
+  margin-right: 0;
+}
+
+.tab-element .nav-tabs .nav-link.active {
+  background: transparent;
+  color: #000;
+}
+
+.tab-element .tab-pane h4 {
+  font-size: 18px;
+  margin: 25px 0 20px;
+}
+
+.tab-element .tab-pane p {
+  font-size: 14px;
+}
+
+.circle-progress {
+  text-align: center;
+  position: relative;
+}
+
+.circle-progress canvas {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.circle-progress .progress-info {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}
+
+.circle-progress .progress-info h2 {
+  font-size: 36px;
+}
+
+.circle-progress .progress-info p {
+  color: #979797;
+  font-size: 16px;
+  line-height: normal;
 }
 
 /* ======================Responsive======================= */
