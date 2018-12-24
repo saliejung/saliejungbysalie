@@ -14,13 +14,12 @@ h6 {
   color: #2C2828;
   margin: 0;
   font-weight: 600;
-  font-family: 'IBM Plex Sans', sans-serif;
 }
 
-p {
+p, .work-inner p {
   font-size: 1rem;
   color: #2C2828;
-  line-height: 1.8;
+  line-height: 1.25rem;
 }
 
 img {
@@ -32,6 +31,11 @@ select:focus,
 button:focus,
 textarea:focus {
   outline: none;
+}
+
+a {
+  border-bottom: 1px solid #787676;
+  text-decoration: none;
 }
 
 a:hover,
@@ -543,8 +547,12 @@ ol {
 }
 
 .work-inner h3 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   padding-bottom: 0.5rem;
+}
+
+.work-para {
+  padding-bottom: 2rem;
 }
 
 /*-------------------------Footer Section----------------------*/
@@ -744,7 +752,7 @@ ol {
   }
   .main-menu ul li a {
     padding: 10px 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #787676;
     display: block;
   }
   .main-menu ul li {
