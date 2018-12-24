@@ -11,9 +11,9 @@ h3,
 h4,
 h5,
 h6 {
-  color: #2C2828;
+  color: #282328;
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p, .work-inner p {
@@ -34,14 +34,21 @@ textarea:focus {
 }
 
 a {
-  border-bottom: 1px solid #787676;
+  color: #282328;
   text-decoration: none;
+}
+
+.underlined {
+  text-decoration: none;
+  border-bottom: 1px solid #C4C3C4;
 }
 
 a:hover,
 a:focus {
+  color: #282328;
   text-decoration: none;
   outline: none;
+  border-bottom: 1px solid #282328;
 }
 
 ul,
@@ -75,6 +82,15 @@ ol {
 
 .element:last-child {
   margin-bottom: 0;
+}
+
+.em-link {
+  color: #F32F17;
+}
+
+a.em-link:hover {
+  color: #F32F17;
+  border-bottom: 1px solid #F32F17;
 }
 
 /*========================== Preloder ======================*/
@@ -361,9 +377,11 @@ ol {
   margin-left: 15px;
   margin-right: 10px;
   padding: 0;
-  color: #2C2828;
+  border-bottom: none;
+  color: #282328;
   font-size: 1rem;
   text-transform: capitalize;
+  text-decoration: none;
   vertical-align: middle;
 }
 
@@ -389,6 +407,12 @@ ol {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.wip-content .em-link {
+  font-size: .875rem;
+  line-height: 1.5rem;
 }
 
 /*-------------------------Intro Section----------------------*/
@@ -711,7 +735,7 @@ ol {
   font-style: italic;
 }
 
-/* ======================Responsive=======================*/
+/* ======================Responsive======================= */
 @media only screen and (max-width: 1448px) {
   .home-2.container {
     width: auto;
@@ -752,7 +776,6 @@ ol {
   }
   .main-menu ul li a {
     padding: 10px 15px;
-    border-bottom: 1px solid #787676;
     display: block;
   }
   .main-menu ul li {
