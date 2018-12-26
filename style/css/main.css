@@ -61,6 +61,20 @@ ol {
   margin: 0;
 }
 
+figure {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure p {
+  color: #898789;
+}
+
 /*------------------------  Helper css  ------------------------*/
 .body-pad {
   padding: 0 40px;
@@ -450,6 +464,8 @@ ol {
 
 .work-intro {
   padding: 8rem 0;
+  height: 30rem;
+  background-color: #f7f7f7;
 }
 
 .work-title {
