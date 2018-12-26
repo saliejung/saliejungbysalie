@@ -220,20 +220,25 @@ ol {
 
 /*---------------------  Header Section  ---------------------*/
 .header-section {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  position: relative;
+  top: 0;
+  width: 100%;
 }
 
 .site-logo {
   font-size: 1.25rem;
   padding-top: 0;
-  position: fixed;
 }
 
 .main-menu {
+  float: right;
   justify-content: right;
-  position: fixed;
+  display: block;
+  background-color: #fff;
 }
 
 .main-menu ul {
@@ -314,6 +319,7 @@ ol {
 /*---------------------Portfolio Section--------------------*/
 .portfolio-section {
   overflow: hidden;
+  margin-top: 4rem;
 }
 
 .portfolio-filter {
@@ -442,7 +448,7 @@ ol {
 
 /*---------------------------  Work  ---------------------------*/
 
-.work-section {
+.work-intro {
   padding: 8rem 0;
 }
 
@@ -762,21 +768,21 @@ ol {
   line-height: normal;
 }
 
-/* ======================Responsive======================= */
+/*------------------------  Responsive  ------------------------*/
 @media only screen and (max-width: 1448px) {
   .home-2.container {
     width: auto;
   }
 }
 
-/* Medium screen : 992px. */
+/*=================  Medium screen : 992px.  =================*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-item-l {
     height: 28rem;
   }
 }
 
-/* Tablet :768px. */
+/*=====================  Tablet :768px.  =====================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .body-pad {
     padding: 0 30px;
@@ -786,7 +792,7 @@ ol {
   }
 }
 
-/* Large Mobile :480px. */
+/*==================  Large Mobile :480px.  ==================*/
 @media only screen and (max-width: 767px) {
   .body-pad {
     padding: 0 15px;
@@ -833,7 +839,7 @@ ol {
   }
 }
 
-/* small Mobile :320px. */
+/*=================  small Mobile :320px.  =================*/
 @media only screen and (max-width: 479px) {
   .intro-title {
     font-size: 2.25rem;
