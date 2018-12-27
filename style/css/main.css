@@ -117,6 +117,12 @@ figure p {
   text-decoration: none;
 }
 
+.hero-image {
+  height: 6vh;
+  background-image: url(https://uploads-ssl.webflow.com/55ce74221f74ecaa28644c33/59c1dd487333f20001b08cc0_Perspective-3.png);
+
+}
+
 /*===================  Preloder  ===================*/
 #preloder {
   position: fixed;
