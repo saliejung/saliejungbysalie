@@ -27,6 +27,10 @@ p {
   margin-bottom: 1rem;
 }
 
+p span {
+  font-weight: 600;
+}
+
 img {
   max-width: 100%;
 }
@@ -62,17 +66,18 @@ ol {
 }
 
 figure {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 figure img {
   width: 100%;
   height: auto;
+  border: 1px solid #C4C3C4;
 }
 
 figure p {
-  color: #898789;
+  margin-top: 1rem;
 }
 
 /*------------------------  Helper css  ------------------------*/
@@ -235,7 +240,6 @@ figure p {
 /*---------------------  Header Section  ---------------------*/
 .header-section {
   overflow: hidden;
-  background-color: #fff;
   position: fixed;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -252,7 +256,6 @@ figure p {
   float: right;
   justify-content: right;
   display: block;
-  background-color: #fff;
 }
 
 .main-menu ul {
@@ -463,7 +466,6 @@ figure p {
 /*---------------------------  Work  ---------------------------*/
 
 .work-intro {
-  padding: 8rem 0;
   height: 30rem;
   background-color: #f7f7f7;
 }
@@ -486,12 +488,21 @@ figure p {
   padding-bottom: 0.5rem;
 }
 
-.work-para {
+.work-last-para {
   padding-bottom: 1rem;
 }
 
-.work-para-s {
+.work-last-para-s {
   padding-bottom: 1rem;
+}
+
+.figure-text {
+  margin-top: 1rem;
+  color: #898789;
+}
+
+.gray-section {
+  background-color: #f7f7f7;
 }
 
 /*-------------------------Footer Section----------------------*/
