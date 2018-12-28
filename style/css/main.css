@@ -66,8 +66,8 @@ ol {
 }
 
 figure {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 figure img {
@@ -115,10 +115,6 @@ figure p {
   border-bottom: 1px solid #F32F17;
   color: #F32F17;
   text-decoration: none;
-}
-
-.hero-image {
-  height: 6vh;
 }
 
 .inverse-text {
@@ -509,6 +505,7 @@ figure p {
 .figure-text {
   margin-top: 1rem;
   color: #898789;
+  font-size: .875rem;
 }
 
 .color-banner {
