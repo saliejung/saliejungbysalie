@@ -474,7 +474,7 @@ figure p {
 /*---------------------------  Work  ---------------------------*/
 
 .hero-image {
-  background-position: 500% 20%;
+  background-position: 700% 20%;
   background-repeat: no-repeat;
 }
 
@@ -892,6 +892,9 @@ figure p {
   figure {
     margin-top: 4rem;
     margin-bottom: 4rem;
+  }
+  .hero-image {
+    background-position: 0;
   }
 }
 
