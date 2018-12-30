@@ -473,6 +473,10 @@ figure p {
 
 /*---------------------------  Work  ---------------------------*/
 
+.hero-image {
+  background-position: 100% 25% 0 0;
+}
+
 .work-intro {
   padding-top: 16.5rem;
   padding-bottom: 7rem;
