@@ -105,6 +105,11 @@ figure p {
   background-size: cover;
 }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 /*---------------------  Common Elements  ---------------------*/
 .element {
   margin-bottom: 100px;
@@ -474,13 +479,18 @@ figure p {
 /*---------------------------  Work  ---------------------------*/
 
 .hero-image {
-  background-position: 700% 20%;
-  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-bottom: 6rem;
+}
+
+.hero-image-section {
+  overflow: hidden;
+  margin-bottom: 6rem;
+  height: 30rem;
 }
 
 .work-intro {
-  padding-top: 16.5rem;
-  padding-bottom: 7rem;
+  margin-top: 15rem;
   margin-bottom: 6rem;
 }
 
@@ -892,9 +902,6 @@ figure p {
   figure {
     margin-top: 4rem;
     margin-bottom: 4rem;
-  }
-  .hero-image {
-    background-position: 0;
   }
 }
 
