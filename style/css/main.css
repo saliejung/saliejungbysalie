@@ -478,15 +478,14 @@ figure p {
 
 /*---------------------------  Work  ---------------------------*/
 
-.hero-image {
-  overflow: hidden;
-  margin-bottom: 6rem;
-}
-
 .hero-image-section {
   overflow: hidden;
   margin-bottom: 6rem;
   height: 30rem;
+}
+
+.hero-image {
+  width: 100%;
 }
 
 .work-intro {
