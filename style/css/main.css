@@ -902,6 +902,11 @@ figure p {
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
+  .hero-image-section {
+    overflow: hidden;
+    margin-bottom: 4rem;
+    height: 12rem;
+  }
 }
 
 /*=================  small Mobile :320px.  =================*/
