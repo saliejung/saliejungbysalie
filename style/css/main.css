@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: Roboto, "Noto Sans TC", sans-serif;
+  font-family: 'Roboto', "Noto Sans TC", sans-serif;
   font-size: 16px;
 }
 
@@ -12,7 +12,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   color: #282328;
 }
 
@@ -507,8 +507,8 @@ figure p {
 }
 
 .work-inner h2 {
-  font-size: 1.5rem;
   padding-bottom: 3.5rem;
+  font-size: 1.5rem;
 }
 
 .work-inner h3 {
