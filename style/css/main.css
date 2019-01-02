@@ -73,6 +73,16 @@ ol {
   margin: 0;
 }
 
+.work-inner ul {
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.work-inner li {
+  padding-bottom: 1rem;
+}
+
 figure {
   margin-top: 6rem;
   margin-bottom: 6rem;
