@@ -156,6 +156,10 @@ figure p {
   color: #898789;
 }
 
+.gray-text:hover {
+  color: #898789;
+}
+
 .inverse-text {
   color: #fff;
 }
