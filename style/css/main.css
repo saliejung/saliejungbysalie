@@ -168,8 +168,12 @@ figure p {
   color: #F32F17;
 }
 
-.border-line {
+.gray-border {
   border-bottom: 1px solid #ebebeb;
+}
+
+.dark-border {
+  border-bottom: 4px solid #282328;
 }
 
 .margin-bottom-2 {
