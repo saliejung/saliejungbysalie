@@ -64,7 +64,6 @@ a {
 .a-underlined-link:hover,
 .a-underlined-link:focus {
   border-bottom: 1px solid #282328;
-  color: #282328;
   text-decoration: none;
 }
 
