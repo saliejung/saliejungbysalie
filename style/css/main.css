@@ -29,6 +29,13 @@ h3 {
   font-size: 2rem;
 }
 
+h6 {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.5pt;
+  text-transform: uppercase;
+}
+
 p {
   font-size: 1rem;
   color: #282328;
@@ -52,6 +59,11 @@ textarea:focus {
 }
 
 a {
+  color: #282328;
+  text-decoration: none;
+}
+
+a:hover {
   color: #282328;
   text-decoration: none;
 }
@@ -140,12 +152,24 @@ figure p {
   text-decoration: none;
 }
 
+.gray-text {
+  color: #898789;
+}
+
 .inverse-text {
   color: #fff;
 }
 
 .em-text {
   color: #F32F17;
+}
+
+.border-line {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.margin-bottom-2 {
+  margin-bottom: 2rem;
 }
 
 /*===================  Preloder  ===================*/
@@ -556,6 +580,14 @@ figure p {
 
 .color-banner p {
   margin-bottom: 0;
+}
+
+.more-project-section {
+  margin-top: 3.5rem;
+}
+
+.projects-inner {
+  margin-top: 2rem;
 }
 
 /*-------------------------Footer Section----------------------*/
