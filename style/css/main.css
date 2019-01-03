@@ -12,7 +12,8 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-weight: 700;
+  font-family: 'Noto Sans';
+  font-weight: 600;
   letter-spacing: 0.2px;
   color: #282328;
 }
@@ -37,6 +38,7 @@ h6 {
 }
 
 p {
+  font-family: 'Roboto';
   font-size: 1rem;
   color: #282328;
   line-height: 1.375rem;
@@ -554,8 +556,8 @@ figure p {
 }
 
 .work-inner h2 {
+  font-size: 1.75rem;
   padding-bottom: 3.5rem;
-  font-size: 1.5rem;
 }
 
 .work-inner h3 {
