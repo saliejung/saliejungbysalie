@@ -896,9 +896,7 @@ figure p {
 
 /*------------------------  Responsive  ------------------------*/
 @media only screen and (max-width: 1448px) {
-  .home-2.container {
-    width: auto;
-  }
+
 }
 
 /*=================  Medium screen : 992px.  =================*/
@@ -920,6 +918,9 @@ figure p {
 
 /*==================  Large Mobile :480px.  ==================*/
 @media only screen and (max-width: 767px) {
+  .row {
+    margin: 0;
+  }
   .body-pad {
     padding: 0 15px;
   }
