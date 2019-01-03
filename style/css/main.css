@@ -40,7 +40,7 @@ p {
   font-size: 1rem;
   color: #282328;
   line-height: 1.375rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 p span {
@@ -560,6 +560,10 @@ figure p {
 
 .work-inner h4 {
   font-size: 1.125rem;
+  padding-bottom: 0.5rem;
+}
+
+.work-inner h6 {
   padding-bottom: 0.5rem;
 }
 
