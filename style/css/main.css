@@ -469,7 +469,7 @@ figure p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.portfolio-item-test:hover {
+.portfolio-item-hover {
   position: absolute;
   width: 100%;
   height: 100%;
