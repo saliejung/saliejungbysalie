@@ -464,11 +464,24 @@ figure p {
   transition: all 0.4s ease 0s;
 }
 
-.portfolio-item-test {
+.card {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.portfolio-thumb-area {
   height: 20rem;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0;
+  transition: all o.3s ease;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.portfolio-thumb:hover {
+  opacity: 0.1;
+}
+
 .portfolio-item-hover {
   position: absolute;
   width: 100%;
