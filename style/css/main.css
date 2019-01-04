@@ -896,12 +896,13 @@ figure p {
     padding: 0 15px;
   }
   .main-menu {
-    position: absolute;
+    position: fixed;
     background: #efefef;
     width: 100%;
+    height: 50%;
     z-index: 999;
     left: 0;
-    top: 30px;
+    top: 5.5rem;
     padding-top: 15px;
     display: none;
   }
@@ -922,9 +923,6 @@ figure p {
     color: #333;
     top: 25px;
     display: block;
-  }
-  .header-btn {
-    display: none;
   }
   .intro-title {
     font-size: 3rem;
