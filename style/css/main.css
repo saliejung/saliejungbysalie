@@ -318,9 +318,11 @@ figure p {
   background-color: transparent;
 }
 
-.site-logo {
-  font-size: 1.25rem;
+.header-logo {
+  display: block;
   padding-top: 0;
+  width: auto;
+  max-height: 2.5rem;
 }
 
 .main-menu {
