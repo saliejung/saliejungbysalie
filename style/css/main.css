@@ -464,7 +464,7 @@ figure p {
   transition: all 0.4s ease 0s;
 }
 
-.card {
+.card-wrap {
   display: inline-block;
   position: relative;
   width: 100%;
