@@ -947,6 +947,7 @@ figure p {
   }
   .intro-title {
     font-size: 3rem;
+    line-height: 3.5rem;
   }
   .intro-body {
     font-size: 2rem;
@@ -961,6 +962,9 @@ figure p {
   .hero-image-section {
     overflow: hidden;
     margin-bottom: 4rem;
+    height: 12rem;
+  }
+  .portfolio-item {
     height: 12rem;
   }
 }
