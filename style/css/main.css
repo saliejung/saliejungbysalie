@@ -318,11 +318,14 @@ figure p {
   background-color: transparent;
 }
 
-.header-logo {
+.header-logo-area {
   display: block;
   padding-top: 0;
-  width: auto;
   max-height: 2.5rem;
+}
+
+.header-logo {
+  width: auto;
 }
 
 .main-menu {
