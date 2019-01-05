@@ -873,7 +873,7 @@ figure p {
 /*=================  Medium screen : 992px.  =================*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-thumb {
-    height: 28rem;
+    height: 16rem;
   }
 }
 
@@ -883,7 +883,7 @@ figure p {
     padding: 0 30px;
   }
   .portfolio-thumb {
-    height: 20rem;
+    height: 12rem;
   }
 }
 
@@ -897,36 +897,39 @@ figure p {
   }
   .main-menu {
     position: fixed;
-    background: #efefef;
+    background: #fff;
     width: 100%;
-    height: 50%;
     z-index: 999;
     left: 0;
     top: 5.5rem;
-    padding-top: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: none;
+  }
+  .main-menu ul li {
+    display: block;
+    padding-right: 16px;
+    text-align: right;
   }
   .main-menu ul li a {
     padding: 10px 15px;
     display: block;
-  }
-  .main-menu ul li {
-    display: block;
+    font-size: 1.25rem;
   }
   .main-menu ul li:last-child a {
     border-bottom: none;
   }
   .nav-switch {
     position: absolute;
-    right: 25px;
-    font-size: 30px;
-    color: #333;
-    top: 25px;
+    right: 32px;
+    top: 30px;
+    font-size: 24px;
+    color: #282328;
     display: block;
   }
   .intro-title {
     font-size: 3rem;
-    line-height: 3.5rem;
+    line-height: 4.75rem;
   }
   .intro-body {
     font-size: 2rem;
@@ -951,7 +954,7 @@ figure p {
 /*=================  small Mobile :320px.  =================*/
 @media only screen and (max-width: 479px) {
   .intro-title {
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 3rem;
   }
   .intro-body {
