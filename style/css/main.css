@@ -556,8 +556,8 @@ figure p {
 }
 
 .figure-text {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: #898789;
   font-size: .875rem;
   line-height: 1.25rem;
