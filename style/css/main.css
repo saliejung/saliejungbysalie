@@ -187,6 +187,10 @@ figure p {
   margin-bottom: 2rem;
 }
 
+.margin-bottom-6 {
+  margin-bottom: 6rem;
+}
+
 /*===================  Preloder  ===================*/
 #preloder {
   position: fixed;
