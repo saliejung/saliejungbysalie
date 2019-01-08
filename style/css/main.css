@@ -61,6 +61,7 @@ textarea:focus {
 }
 
 a {
+  color: #282328;
   text-decoration: none;
 }
 
@@ -71,7 +72,6 @@ a:hover {
 
 .a-underlined-link {
   border-bottom: 1px solid #C4C3C4;
-  text-decoration: none;
 }
 
 .a-underlined-link:hover,
