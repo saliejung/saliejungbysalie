@@ -46,7 +46,7 @@ p {
 }
 
 p span {
-  font-weight: 600;
+  background: linear-gradient(transparent 80%, rgba(255,373,100,.5) 80%);
 }
 
 img {
@@ -401,7 +401,7 @@ figure p {
 }
 
 .intro-title span {
-  border-bottom: 4px solid #282328;
+  background: linear-gradient(transparent 80%, rgba(255,373,100,.5) 80%);
 }
 
 .intro-body {
