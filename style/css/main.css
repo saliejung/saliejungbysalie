@@ -358,6 +358,10 @@ figure p {
   vertical-align: middle;
 }
 
+.main-menu ul li a:hover {
+  background: linear-gradient(transparent 80%, rgba(255,373,100,.5) 80%);
+}
+
 .nav-switch {
   display: none;
 }
@@ -484,23 +488,6 @@ figure p {
   display: block;
 }
 
-.img-popup-warp .mfp-content {
-  opacity: 0;
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.img-popup-warp.mfp-ready .mfp-content {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
 /*---------------------------  Work  ---------------------------*/
 
 .hero-image-section {
@@ -544,14 +531,6 @@ figure p {
 
 .work-inner h6 {
   padding-bottom: 0.5rem;
-}
-
-.work-last-para {
-  padding-bottom: 1rem;
-}
-
-.work-last-para-s {
-  padding-bottom: 1rem;
 }
 
 .figure-text {
