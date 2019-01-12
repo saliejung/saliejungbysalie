@@ -538,6 +538,8 @@ figure p {
 }
 
 .figure-text {
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: #898789;
