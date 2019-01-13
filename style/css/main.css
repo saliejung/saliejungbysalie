@@ -186,6 +186,10 @@ figure p {
   margin-bottom: 0;
 }
 
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+
 .margin-bottom-2 {
   margin-bottom: 2rem;
 }
