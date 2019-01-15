@@ -110,6 +110,11 @@ figure p {
   margin-top: 1rem;
 }
 
+video {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
 /*------------------------  Helper css  ------------------------*/
 .body-pad {
   padding: 0 40px;
