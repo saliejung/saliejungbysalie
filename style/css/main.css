@@ -372,7 +372,7 @@ video {
 }
 
 .main-menu ul li a:hover {
-  background: linear-gradient(transparent 80%, rgba(255,373,100,.5) 80%);
+  background: linear-gradient(transparent 70%, rgba(255,373,100,.5) 70%);
 }
 
 .nav-switch {
@@ -418,7 +418,7 @@ video {
 }
 
 .intro-title span {
-  background: linear-gradient(transparent 80%, rgba(255,373,100,.5) 80%);
+  background: linear-gradient(transparent 70%, rgba(255,373,100,.5) 70%);
 }
 
 .intro-body {
