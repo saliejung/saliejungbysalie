@@ -112,7 +112,7 @@ figure p {
 
 video {
   margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-bottom: 0rem;
 }
 
 /*------------------------  Helper css  ------------------------*/
@@ -200,7 +200,7 @@ video {
 }
 
 .margin-bottom-6 {
-  margin-bottom: 6rem;
+  margin-bottom: 6rem !important;
 }
 
 /*===================  Preloder  ===================*/
